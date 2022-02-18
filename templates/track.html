@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Tracking Results</title>l
+			<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"></link>
+</head>
+<body>
+		<center>
+				<h1>URL Tracked Results</h1><br>
+				<h2>This URL is redirected or shortened</h2>
+				<h3>End URL: <a id="endurl" href="{{ endurl.url }}">{{ endurl.url }}</a></h3>
+				<h3>Status Code: {{ endurl.status_code }}</h3><br>
+				<h4>Here is the redirected chain👇👇👇</h4>
+				<table border="1">
+						<thead>
+								<tr>
+										<td>Status Code</td>
+										<td>URL</td>
+										<td>Reason</td>
+								</tr>
+						</thead>
+						<tbody>
+								{% for r in redirect %}
+								<tr>
+										<td>{{ r.status_code }}</td>
+										<td>{{ r.url }}</td>
+										<td>{{ r.reason }}</td>
+								</tr>
+								{% endfor %}
+						</tbody>
+				</table><br>
+				<button><a href="/">Home</a></button>
+		</center>
+		<hr>
+		
+		<label>Give This A Star On <a href="https://github.com/Phoenix-1124/L-Path" id="contacts">Github</a></label><br>
+		<label>Contact Me Via <a href="https://Wa.me/+94711806353" id="contacts">Whatsapp</a></label>
+</body>
+</html>

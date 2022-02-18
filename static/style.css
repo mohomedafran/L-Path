@@ -1,0 +1,112 @@
+body {
+		background-color: #0a1419;
+}
+
+#tool-head {
+		font-size: 70px;
+		background: -webkit-linear-gradient(#26ff00, #ff5f55); 										-webkit-background-clip: text; 										-webkit-text-fill-color: transparent;
+}
+
+input[type=url] {
+		width: 70%;
+		height: 45px;
+		font-size: 30px;
+		border: 2px solid #225f08;
+		background-color: #0a1419;
+		padding-left: 10px;
+		color: #eaffea;
+}
+
+input[type=url]:focus {
+		border: 3px solid #c2da00;
+}
+
+input[type=submit] {
+		width: 25%;
+		height: 45px;
+		font-size: 30px;
+		background-color: black;
+		border: 2px solid #b39a00;
+		color: #bfffea;
+}
+
+button {
+		width: 25%;
+		height: 45px;
+		font-size: 30px;
+		background-color: black;
+		border: 2px solid #10bd1a;
+}
+
+#home-buttons {
+		margin-top: 40px;
+		width: 40%;
+}
+
+a {
+		text-decoration: none;
+		color: black;
+		color: #ffffea;
+}
+
+img {
+		width: 781px;
+		height: 200px;
+}
+
+h1 {
+		color: #94684a;
+		font-size: 60px;
+		text-decoration: underline;
+}
+
+h2{
+		color: #639475;
+		font-size: 40px;
+}
+
+h3 {
+		color: #946f94;
+		font-size: 30px;
+}
+
+#endurl {
+		color: #0b1388;
+		text-decoration: underline;
+}
+
+h4 {
+		font-size: 35px;
+		color: #ac004e;
+}
+
+table {
+		font-size: 30px;
+}
+
+thead {
+		color: #737aac;
+		text-align: center;
+}
+
+tbody {
+		color: #bdbdbd;
+}
+
+p {
+		font-size: 35px;
+		color: #00834d;
+}
+
+hr {
+		margin-top: 40px;
+}
+
+label {
+		color: #b4b4b4;
+}
+
+#contacts {
+		color: #0003ce;
+		text-decoration: underline;
+}

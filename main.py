@@ -1,6 +1,32 @@
 from flask import Flask, render_template, request
 import requests
+import sys
+import time
+import random
 
+m= """
+██╗░░░░░░░░░░░██████╗░░█████╗░████████╗██╗░░██╗
+██║░░░░░░░░░░░██╔══██╗██╔══██╗╚══██╔══╝██║░░██║
+██║░░░░░█████╗██████╔╝███████║░░░██║░░░███████║
+██║░░░░░╚════╝██╔═══╝░██╔══██║░░░██║░░░██╔══██║
+███████╗░░░░░░██║░░░░░██║░░██║░░░██║░░░██║░░██║
+╚══════╝░░░░░░╚═╝░░░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝
+"""
+
+for x in m:
+    print(x, end='')
+    sys.stdout.flush()
+    time.sleep(0.010)
+    
+h = "\033[1;33;40m                                       Coded By PHOENIX"
+
+for i in h:
+    for j in i:
+        print(j, end='')
+        sys.stdout.flush()
+        time.sleep(0.03)
+        
+        
 app = Flask(__name__)
 
 @app.route('/')

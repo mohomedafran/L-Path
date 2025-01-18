@@ -18,7 +18,7 @@ for x in m:
     sys.stdout.flush()
     time.sleep(0.010)
     
-h = "\033[1;33;40m                                Coded By PHOENIX \n"
+h = "\033[1;33;40m                                Coded By Mohomed Afran \n"
 
 for i in h:
     for j in i:
